@@ -44,4 +44,4 @@ The  ```results/bias_experiments``` directory will include:
 
 **4. Reproduce second method**
 
-To reproduce the second method please and visualize the results, please run the notebook ```gender_polarity_t5_embeds.ipynb```.
+To reproduce the second method and visualize the results, please run the notebook ```gender_polarity_t5_embeds.ipynb```.
