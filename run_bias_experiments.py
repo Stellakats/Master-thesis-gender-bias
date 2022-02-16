@@ -6,9 +6,8 @@ import configs.config as config
 # experiment-specific args are defined here
 
 hyperparameter_defaults = dict(
-    data_dir='/mnt/storage/data/stella/datasets/stsb' if torch.cuda.is_available() else './data/stsbenchmark/',
-    output_dir='/mnt/storage/data/stella/models/model_checkpoints_stsb-en' if torch.cuda.is_available() else
-    './checkpoints_stsb-en',
+    data_dir='./data/stsbenchmark/',
+    output_dir='./checkpoints_stsb-en',
     n_gpu=1 if torch.cuda.is_available() else 0,
     model_name_or_path='google/mt5-small',
     tokenizer_name_or_path='google/mt5-small',
