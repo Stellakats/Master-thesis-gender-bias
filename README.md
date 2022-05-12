@@ -1,7 +1,8 @@
 # Measuring Gender Bias in Contextualized Embeddings
 
-This repository includes the code necessary to reproduce the experiments used to measure gender bias in contextualized embeddings.<br/> 
-Those experiments were conducted as part of this [Master Thesis Project](https://www.diva-portal.org/smash/record.jsf?dswid=3668&pid=diva2%3A1618310&c=1&searchType=SIMPLE&language=en&query=styliani+katsarou+&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=all) which was done in collaboration with [KTH](https://www.kth.se/en) and [Peltarion](https://peltarion.com/).
+This repository includes the code necessary to reproduce the experiments used to measure gender bias in contextualized embeddings as part of this [Master Thesis Project](https://www.diva-portal.org/smash/record.jsf?dswid=3668&pid=diva2%3A1618310&c=1&searchType=SIMPLE&language=en&query=styliani+katsarou+&af=%5B%5D&aq=%5B%5B%5D%5D&aq2=%5B%5B%5D%5D&aqe=%5B%5D&noOfRows=50&sortOrder=author_sort_asc&sortOrder2=title_sort_asc&onlyFullText=false&sf=all) which was done in collaboration with [KTH](https://www.kth.se/en) and [Peltarion](https://peltarion.com/).
+
+This work has also been presented in the ["Artificial intelligence with Biased or Scarce Data" (AIBSD) Workshop](https://aibsdworkshop.github.io/2022/index.html) held In Conjunction with the 36th AAAI Conference on Artificial Intelligence 2022, the proceedings of which have also been published with MDPI. Please find the proceeding paper [here](https://www.mdpi.com/2813-0324/3/1/3).  
 
 Methods: 
 1. **Measuring gender bias through the downstream task of Semantic textual similarity.**<br />Languages used: English and Swedish.<br />Models used: T5 and mT5.<br />
